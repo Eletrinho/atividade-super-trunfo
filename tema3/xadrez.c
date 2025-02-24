@@ -30,5 +30,19 @@ int main(int argc, char const *argv[])
         rainha++;
     } while (rainha < 8);
     
+    // Movimento do Cavalo
+    printf("\n");
+    printf("Movimento do Cavalo: \n");
+    for (int i = 0; i < 2; i++)
+    {
+        printf("Baixo \n");
+        int j = 0;
+        while (i == 1 && j < 1)
+        {
+            printf("Esquerda \n");
+            j++;
+        }
+    }
+    
     return 0;
 }
